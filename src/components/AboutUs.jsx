@@ -7,7 +7,7 @@ const AboutUs = () => {
 <div className="p-5 mt-10 ">
       <div className="flex flex-col">
         <div className="flex justify-center align-center">
-          <h2>
+          <h2 className="text-sm font-extrabold md:text-3xl">
             We aim to serve the community and contribute to global waste
             management
           </h2>
@@ -31,13 +31,13 @@ const AboutUs = () => {
 
           <div>
             <figure className="flex justify-center align-center text-xl text-green-700">
-              300<span>+</span>{' '}
+              300<span>+</span>
             </figure>
             <p>Collectors</p>
           </div>
           <div>
-            <figure className="flex justify-center align-center text-2xl text-green-700">
-              1000<span>+</span>{' '}
+            <figure className="flex justify-center align-center text-xl text-green-700">
+              1000<span>+</span>
             </figure>
             <p>Killograms of Waste</p>
           </div>
@@ -48,7 +48,7 @@ const AboutUs = () => {
       <div className="flex flex-col space-y-5 mt-20">
         <div className="flex flex-col justify-center items-center">
           <div>
-            <h2 className="text-3xl">
+            <h2 className="text-sm font-extrabold md:text-l">
               Satisfaction is <span className="text-green-700">key</span> to
               progress
             </h2>
@@ -71,7 +71,7 @@ const AboutUs = () => {
         <div class="flex justify-center">
           <div class="block p-6 rounded-lg shadow-lg bg-white-700 max-w-sm border-2 border-green-200 ">
           <img src={brand} className='w-20 top-[-70px] left-[-50px] relative' />
-            <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">
+            <h5 className="text-gray-900 text-xl leading-tight font-medium mb-2">
               Card title
             </h5>
             <p class="text-gray-700 text-base mb-4">
@@ -85,7 +85,7 @@ const AboutUs = () => {
         <div class="flex justify-center">
           <div class="block p-6 rounded-lg shadow-lg bg-white-700 max-w-sm border-2 border-green-200 ">
           <img src={brand} className='w-20 top-[-70px] left-[-50px] relative' />
-            <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">
+            <h5 className="text-gray-900 text-xl leading-tight font-medium mb-2">
               Card title
             </h5>
             <p class="text-gray-700 text-base mb-4">
@@ -99,7 +99,7 @@ const AboutUs = () => {
         <div class="flex justify-center">
           <div class="block p-6 rounded-lg shadow-lg bg-white-700 max-w-sm border-2 border-green-200 ">
           <img src={brand} className='w-20 top-[-70px] left-[-50px] relative' />
-            <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">
+            <h5 className="text-gray-900 text-xl leading-tight font-medium mb-2">
               Card title
             </h5>
             <p class="text-gray-700 text-base mb-4">

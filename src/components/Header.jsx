@@ -17,7 +17,11 @@ const Header = () => {
             <li className='cursor-pointer hover:text-green-600'>
             <Link to='Services' smooth={true} duration={500}> Services</Link>
             </li>
+            <li className='cursor-pointer hover:text-green-600 bb-yellow'>
+            <Link to='Process' smooth={true} duration={500}> Process</Link>
+            </li>
             <li className='cursor-pointer hover:text-green-600 bb-yellow'>Contact us</li>
+            <li className='cursor-pointer hover:text-green-600 bb-yellow'>Login</li>
 
         </ul>
         <div className='flex md:hidden display-none cursor-pointer text-green-600'>
@@ -36,8 +40,10 @@ const Header = () => {
         <li className='cursor-pointer hover:text-green-600'>
         <Link to='Services' smooth={true} duration={500}> Services</Link>
         </li>
+        <li><a className='cursor-pointer hover:text-green-600 bb-yellow'>Process</a></li>
      
       <li><a className='cursor-pointer hover:text-green-600 bb-yellow'>Contact us</a></li>
+      <li><a className='cursor-pointer hover:text-green-600 bb-yellow'>Login</a></li>
      
     </BurgerNav>
         

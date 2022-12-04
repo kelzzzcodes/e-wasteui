@@ -7,7 +7,7 @@ const Hero = () => {
       
         <div className=" flex flex-col space-y-4 text-white text-xl p-5 bg-black bg-opacity-50 w-[600px] ">
          <div className='flex justify-center align-center'>
-           <h1 className='text-green-600 text-3xl' >Waste in your area</h1>
+           <h1 className='text-green-600 text-3xl font-extrabold' >Waste in your area</h1>
            </div>
          <div> <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a
