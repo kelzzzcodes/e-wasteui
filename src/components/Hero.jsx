@@ -5,11 +5,12 @@ const Hero = () => {
   return (
     <div className="flex min-h-screen justify-center items-center p-5  " style={{backgroundImage:`url(${Bg})`,backgroundRepeat:'no-repeat',backgroundSize:'cover', backgroundPosition:'center'}}>
       
-        <div className=" flex flex-col space-y-4 text-white text-xl p-5 bg-black bg-opacity-50 w-[600px] ">
+        <div className=" flex flex-col space-y-4 text-white p-5 bg-black bg-opacity-50 w-[600px] ">
          <div className='flex justify-center align-center'>
-           <h1 className='text-green-600 text-3xl font-extrabold' >Waste in your area</h1>
+           <h1 className='text-l text-green-600 md:text-green-600 text-3xl font-extrabold' >Waste in your area</h1>
            </div>
-         <div> <p>
+         <div>
+           <p className=' text-l sm:text-xl'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a
             autem cupiditate nemo animi consequuntur, molestiae repudiandae ut
             eveniet, provident, minima labore ad rerum quaerat ex laborum. Iste,

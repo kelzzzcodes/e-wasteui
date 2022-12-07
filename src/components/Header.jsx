@@ -7,7 +7,7 @@ const Header = () => {
   const [burgerStatus,  setBurgerStatus] =useState(false);
   return (
     <div>
-      <div className=" flex justify-between items-center p-5 shadow-md shadow-gray-300">
+      <div className=" flex justify-between items-center p-5 border-2 border-b-green-500 ">
         <div className='cursor-pointer text-green-600'><a href="#">KELzzzWaste</a></div>
         <ul className='hidden md:flex justify-between items-center space-x-10 mr-10 '>
             <li className='cursor-pointer hover:text-green-600'>Home</li>
@@ -20,7 +20,9 @@ const Header = () => {
             <li className='cursor-pointer hover:text-green-600 bb-yellow'>
             <Link to='Process' smooth={true} duration={500}> Process</Link>
             </li>
-            <li className='cursor-pointer hover:text-green-600 bb-yellow'>Contact us</li>
+            <li className='cursor-pointer hover:text-green-600 bb-yellow'>
+            <Link to='ContactUs' smooth={true} duration={500}> Contact Us</Link>
+            </li>
             <li className='cursor-pointer hover:text-green-600 bb-yellow'>Login</li>
 
         </ul>

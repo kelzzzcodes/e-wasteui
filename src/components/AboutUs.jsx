@@ -7,7 +7,7 @@ const AboutUs = () => {
 <div className="p-5 mt-10 ">
       <div className="flex flex-col">
         <div className="flex justify-center align-center">
-          <h2 className="text-sm font-extrabold md:text-3xl">
+          <h2 className="text-sm font-extrabold md:text-2xl">
             We aim to serve the community and contribute to global waste
             management
           </h2>
@@ -48,7 +48,7 @@ const AboutUs = () => {
       <div className="flex flex-col space-y-5 mt-20">
         <div className="flex flex-col justify-center items-center">
           <div>
-            <h2 className="text-sm font-extrabold md:text-l">
+            <h2 className="text-sm font-extrabold md:text-3xl">
               Satisfaction is <span className="text-green-700">key</span> to
               progress
             </h2>
